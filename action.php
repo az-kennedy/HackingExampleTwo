@@ -1,10 +1,8 @@
 <?php
 
-if (($_POST['username']) == "User1" && ($_POST['password']) == "Password1!") {
-  echo "Success!  You hacked the website, nice job!";
-  echo "The next exercise is located at this URL: [https://webapp-ndclhackingexercisestwo.azurewebsites.net]          ";
-  echo "";
-  echo "Hint: Use SQL Injection";
+if (($_POST['username']) == "select * from users" || ($_POST['password']) == "select * from users") {
+  echo "Success!  You hacked the second website, nice job! \r\n \r\n";
+  echo "Hold tight while others finish this exercise";
 } else {
   echo "Wrong username and password. Try again";
 }
