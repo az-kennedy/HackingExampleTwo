@@ -9,6 +9,6 @@ if (strtolower(($_POST['username'])) == "select * from users" || strtolower(($_P
   echo "Sorry, wrong try again";
   echo "<br>";
   echo "<br>";
-  echo "Hint: Use SQL Injection";
+  echo "Hint: Use SQL Injection.  The table name is [users]";
 }
 ?>
